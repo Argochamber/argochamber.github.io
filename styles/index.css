@@ -128,13 +128,26 @@
 .article-card {
   color: black;
   border: 1px solid darkgray;
-  padding: 12px;
 }
 .article-card .cover {
   height: 128px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.article-card .description {
+  margin: 12px;
+}
+.article-card .description h1 {
+  margin-bottom: 0.5em;
+}
+.article-card .description p {
+  font-size: 110%;
+}
+.article-card .date {
+  text-align: end;
+  color: dimgray;
+  margin-bottom: 8px;
 }
 
 .home {
@@ -158,6 +171,7 @@
   grid-template-columns: 1fr 860px 1fr;
   grid-template-rows: 100%;
   grid-template-areas: "aside-left article aside-right";
+  margin-top: -1rem;
 }
 
 aside.right {
@@ -171,19 +185,29 @@ aside.left {
 .navbar {
   width: 100%;
   padding: 16px;
-  background-color: lightgray;
+  background-color: whitesmoke;
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .nav-title {
   min-width: max-content;
 }
+.nav-title img {
+  float: left;
+  height: 26px;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  margin-right: 8px;
+}
+.nav-title a {
+  color: black;
+}
 
 .nav-links {
   width: 100%;
   display: flex;
-  padding-left: 16px;
+  padding-left: 24px;
   gap: 12px;
 }
 
@@ -228,17 +252,40 @@ section.post header {
 }
 section.post header h1 {
   font-size: 3rem;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 section.post header .subtitle {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
-  color: gray;
+  margin-bottom: 0.67em;
+  margin-left: auto;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+section.post header .date {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+section.post article p {
+  font-size: 120%;
+  line-height: 160%;
+}
+section.post article h2 {
+  font-size: 180%;
+  margin-top: 1.67em;
 }
 section.post .navigation {
   width: 100%;
   display: flex;
-  padding: 16px;
+  padding-top: 16px;
+  padding-bottom: 32px;
   gap: 16px;
   justify-content: stretch;
 }
@@ -247,16 +294,21 @@ section.post .navigation > * {
   flex-direction: column;
   padding: 8px;
   border: 1px solid gray;
+  border-radius: 4px;
   width: 100%;
+  gap: 6px;
 }
 section.post .navigation > *.no-link {
   border: none;
 }
 section.post .navigation > * strong {
-  color: slategray;
+  color: dimgray;
   font-size: large;
   font-family: Montserrat;
   font-weight: 600;
+}
+section.post .navigation > * span {
+  font-family: Montserrat;
 }
 
 /*# sourceMappingURL=index.css.map */
