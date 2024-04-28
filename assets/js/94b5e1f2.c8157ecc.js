@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkargochamber_web=self.webpackChunkargochamber_web||[]).push([[7793],{5256:e=>{e.exports=JSON.parse('{"label":"space-shooter","permalink":"/blog/tags/space-shooter","allTagsPath":"/blog/tags","count":4,"unlisted":false}')}}]);

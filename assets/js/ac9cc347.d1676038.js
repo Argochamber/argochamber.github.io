@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkargochamber_web=self.webpackChunkargochamber_web||[]).push([[2090],{2194:a=>{a.exports=JSON.parse('{"label":"visual-language","permalink":"/blog/tags/visual-language","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

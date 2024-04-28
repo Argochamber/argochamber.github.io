@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://argochamber.com/blog</id>
+    <title>Argochamber Interactive Blog</title>
+    <updated>2024-04-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://argochamber.com/blog"/>
+    <subtitle>Argochamber Interactive Blog</subtitle>
+    <icon>https://argochamber.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Cambio de rumbo]]></title>
+        <id>https://argochamber.com/blog/2024/04/28/cambio-de-rumbo</id>
+        <link href="https://argochamber.com/blog/2024/04/28/cambio-de-rumbo"/>
+        <updated>2024-04-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bueno, tras dos meses de una actividad muy reducida, me he decidido a darle un cambio de]]></summary>
+        <content type="html"><![CDATA[<p>Bueno, tras dos meses de una actividad muy reducida, me he decidido a darle un cambio de
+rumbo a este proyecto.</p>
+<p>¿Voy a abandonarlo? No, pero sí voy a aparcarlo.</p>
+<p>Cuando me embarqué en esta aventura, contaba con dos colaboradores que estaban dispuestos
+a echarme un cable con algunas <em>"tareillas"</em>, pero por desgracia su motivación descendió
+rauda y veloz en poco tiempo. Para finales de febrero, me vi solo con el proyecto.</p>
+<p>Yo, entusiasta por naturaleza, dije ¡Sí, puedo con todo! (spoiler: Sale mal).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="qué-voy-a-hacer">¿Qué voy a hacer?<a href="https://argochamber.com/blog/2024/04/28/cambio-de-rumbo#qu%C3%A9-voy-a-hacer" class="hash-link" aria-label="Enlace directo al ¿Qué voy a hacer?" title="Enlace directo al ¿Qué voy a hacer?">​</a></h2>
+<p>Pues no quiero dejar esto, pero me he planteado fijar objetivos menos ambiciosos,
+y más realistas.</p>
+<p>No era un juego para una sola persona, y menos para un desarrollo tan pausado.</p>
+<p>¡Así que voy a publicar pequeños juegos en <a href="https://argochamber.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a>!</p>
+<p>Pero primero tengo que dar con una idea que me desatasque... Tengo algunas en el
+cajón, pero tengo que valorar cual va a ser la menos tediosa de empezar.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="en-el-próximo-post">En el próximo post...<a href="https://argochamber.com/blog/2024/04/28/cambio-de-rumbo#en-el-pr%C3%B3ximo-post" class="hash-link" aria-label="Enlace directo al En el próximo post..." title="Enlace directo al En el próximo post...">​</a></h2>
+<p>De entre todas las ideas que barajo, en el próximo post te contaré que es lo
+que he decidido, pero creo que no será hasta que no tenga algo a lo que "echarle una foto".</p>
+<p>Lo que si sé, es que probablemente sea algo entre un FPS 3D retro, como hicieron los de
+<a href="http://www.wrath.game/" target="_blank" rel="noopener noreferrer">Wrath: Aeon of ruin</a>, o algo más básico en 2D tipo simulador
+espacial, algo así como una versión 2D de <a href="https://www.elitedangerous.com/" target="_blank" rel="noopener noreferrer">Elite dangerous</a>.</p>
+<p>¡Ya veremos!</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="referencias">Referencias<a href="https://argochamber.com/blog/2024/04/28/cambio-de-rumbo#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias">​</a></h3>
+<p>Itch.io: <a href="https://itch.io/" target="_blank" rel="noopener noreferrer">https://itch.io/</a></p>]]></content>
+        <author>
+            <name>Pablo Blanco</name>
+            <email>pablo@argochamber.com</email>
+            <uri>https://github.com/sigmasoldi3r</uri>
+        </author>
+        <category label="space-shooter" term="space-shooter"/>
+        <category label="gamedev" term="gamedev"/>
+        <category label="meta" term="meta"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simplificando tareas con Blender]]></title>
+        <id>https://argochamber.com/blog/2024/02/24/blender-time</id>
+        <link href="https://argochamber.com/blog/2024/02/24/blender-time"/>
+        <updated>2024-02-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Te voy a contar un poco que estilo visual tengo en mente para este juego…]]></summary>
+        <content type="html"><![CDATA[<p>Te voy a contar un poco que estilo visual tengo en mente para este juego…</p>
+<p><img decoding="async" loading="lazy" alt="Raptor: Call of the shadows" src="https://argochamber.com/assets/images/raptor-b49835b5dc6f1f4a105aa8821f1fe643.png" width="1280" height="1024" class="img_ev3q"></p>
+<p>Básicamente, me voy a poner “retro”. Quiero que las escenas, animaciones y la acción en general, pero no es tarea fácil.</p>
+<p>Para empezar, ya de por sí, las animaciones para el juego tienen la complejidad de que, las tienes que animar fotograma a fotograma. Como te arrepientas de lo que se ve en un fotograma y quieras cambiar mucho la forma… ¡A cambiar todos los fotogramas!</p>
+<p>Y no solo eso, tienes que pintarlos todos, con la faena que eso conlleva, y sueles tener que pintar píxel a píxel. Esto se empieza a hacer tedioso si quieres emular el grano y ruido de las imágenes de la época, y al mismo tiempo quieres que las sombras sean creíbles.</p>
+<p><img decoding="async" loading="lazy" alt="Aseprite" src="https://argochamber.com/assets/images/aseprite-f6adbd77e97160c03dc1db2783f7226b.png" width="1920" height="1054" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="qué-solución-he-pensado">¿Qué solución he pensado?<a href="https://argochamber.com/blog/2024/02/24/blender-time#qu%C3%A9-soluci%C3%B3n-he-pensado" class="hash-link" aria-label="Enlace directo al ¿Qué solución he pensado?" title="Enlace directo al ¿Qué solución he pensado?">​</a></h2>
+<p>Bueno, pese a que soy consciente de que, aún y con todo, me tocará hacer muchas cosas a mano, he pensado en simplificarme el trabajo haciendo uso de herramientas modernas: Blender.</p>
+<p>Ya tenía pensado ayudarme de rotoscopia y pintar sobre imágenes 3D para hacerme la vida más fácil, porque no soy muy bueno aún con la perspectiva y la luz. Y también voy a tardar mucho y a dar muchas vueltas (Me conozco).</p>
+<p>Entonces he pensado: En algunas situaciones, tal vez valga la pena saltarme el paso de pintar, y hacer directamente que el propio programa, me dibuje lo que quiero ver. Solo hay que filtrar la imagen y poner un par de materiales especiales aquí y allá.</p>
+<p><strong>Problema</strong>: Mi Blender, por algún motivo se cuelga cada vez que muevo un objeto. Aunque esto no es un problema de la metodología que he ideado, sí que es algo que me está frenando, y la verdad, está siendo un poco desalentador. He intentado reinstalarlo, instalar de otras fuentes… ¡Nada! Sospecho que puede deberse a cambios que he estado haciendo últimamente en el sistema operativo (Estoy ahora mismo usando Linux… que es famoso por tener estos <em>problemones</em> mágicos que no sabes muy bien de donde salen).</p>
+<p><img decoding="async" loading="lazy" alt="Blender: Call of the amogus" src="https://argochamber.com/assets/images/blender-2084db98397039081322e41053a18ce4.png" width="711" height="492" class="img_ev3q"></p>
+<p>Creía que utilizar el ejecutable que te da <a href="https://www.blender.org/" target="_blank" rel="noopener noreferrer">https://www.blender.org/</a>, lo habría solucionado. No. Puedo mover objetos… pero, si muevo la cámara, adiós.</p>
+<p>No me queda otra opción: Voy a revivir mi monstruo de Frankenstein que es mi PC antiguo. ¿Por qué digo que es un monstruo de Frankenstein? Bueno, para empezar es un portátil MSI que tiene como 7 u 8 años, con una GTX860 versión móvil. Por suerte en su época era potente y está resistiendo bien al paso del tiempo, pero se le notan los años. A todo esto, añádele que he hecho la inversión en un disco duro de 4 TB grande, para PC de sobremesa, y por supuesto, para que el pobre pueda usarlo como disco primario, he tenido que destriparlo, ponerle extras, modificaciones… toda una odisea.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ahora-sí-vamos-a-ver-que-tal">Ahora sí, vamos a ver que tal<a href="https://argochamber.com/blog/2024/02/24/blender-time#ahora-s%C3%AD-vamos-a-ver-que-tal" class="hash-link" aria-label="Enlace directo al Ahora sí, vamos a ver que tal" title="Enlace directo al Ahora sí, vamos a ver que tal">​</a></h2>
+<p>Pues ha hecho falta cambiar de sistema operativo, pero aquí lo tenemos.</p>
+<p><img decoding="async" loading="lazy" alt="pixelart_examples.png" src="https://argochamber.com/assets/images/pixelart_examples-2f1dce179b01594cf10ef1fa5250ad73.png" width="200" height="150" class="img_ev3q"></p>
+<p>Con un par de cambios en los pasos de dibujado de Blender, he conseguido bajar la paleta de colores y añadirle los efectos de “Dithering”, muy típico en las <em>Sprites</em> de la época.</p>
+<p><img decoding="async" loading="lazy" alt="Nodes" src="https://argochamber.com/assets/images/nodes-a34a6f9c6d2bbe9b01bff8c3c0e445c3.png" width="637" height="188" class="img_ev3q"></p>
+<p>Ahora ya puedo empezar a crear prototipos de las escenas que necesito dibujar durante el juego. Esto, si acaba funcionando como quiero, me va a dar la oportunidad de reducir mucho el tiempo de trabajo. Ten en cuenta que no soy ilustrador, y a eso súmale que tengo que trabajar en otro trabajo… Así que todas las herramientas que me permitan reducir el tiempo de producción, bienvenidas serán (Siempre que no suponga destrozar el proyecto, claro).</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="referencias">Referencias<a href="https://argochamber.com/blog/2024/02/24/blender-time#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias">​</a></h3>
+<p>Addon de pixel art para Blender: <a href="https://lucasroedel.gumroad.com/l/pixel_art" target="_blank" rel="noopener noreferrer">https://lucasroedel.gumroad.com/l/pixel_art</a></p>]]></content>
+        <author>
+            <name>Pablo Blanco</name>
+            <email>pablo@argochamber.com</email>
+            <uri>https://github.com/sigmasoldi3r</uri>
+        </author>
+        <category label="space-shooter" term="space-shooter"/>
+        <category label="gamedev" term="gamedev"/>
+        <category label="design" term="design"/>
+        <category label="visual-language" term="visual-language"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arrancando el proyecto]]></title>
+        <id>https://argochamber.com/blog/2024/02/09/arrancando</id>
+        <link href="https://argochamber.com/blog/2024/02/09/arrancando"/>
+        <updated>2024-02-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[¡Venga que esto arranca!]]></summary>
+        <content type="html"><![CDATA[<p>¡Venga que esto arranca!</p>
+<p>Este es el post en el que te cuento de que va el juego.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="vale-y-de-qué-va">Vale, y ¿De qué va?<a href="https://argochamber.com/blog/2024/02/09/arrancando#vale-y-de-qu%C3%A9-va" class="hash-link" aria-label="Enlace directo al Vale, y ¿De qué va?" title="Enlace directo al Vale, y ¿De qué va?">​</a></h2>
+<p>A grandes rasgos, la historia (Qué aún no está muy definida…), te sitúa en el lugar de un/a mercenario/a, que básicamente tiene que abrirse camino en un universo corrupto, y lleno de conflictos.</p>
+<p>Así que, matar a cambio de dinero, básicamente.</p>
+<p>Pero, aparte de hacer misiones a cambio de dinero o artefactos valiosos, también habrá complicaciones. La gente empezará a notarte, y querrán tus riquezas.</p>
+<p>Y no solo eso, el universo en el que nos situamos esconde secretos, y cuanto más secretos desentierres, más gente (o cosas) te perseguirán.</p>
+<p>Y ¡Pum! ¿Un poco cliché, verdad?</p>
+<p>Bueno, ten en cuenta que es solo un borrador esto. Ahora por ahora, nos centraremos en que salga “algo” en la pantalla.</p>
+<p>Ah, dato importante: Estos mercenarios operan con naves espaciales (Sí, serás un/a piloto de nave espacial).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bueno-entonces-cómo-será">Bueno, entonces ¿Cómo será?<a href="https://argochamber.com/blog/2024/02/09/arrancando#bueno-entonces-c%C3%B3mo-ser%C3%A1" class="hash-link" aria-label="Enlace directo al Bueno, entonces ¿Cómo será?" title="Enlace directo al Bueno, entonces ¿Cómo será?">​</a></h2>
+<p>Ya te he contado “de qué va”, pero no te he dicho que es lo que vas a ver.</p>
+<p>Digamos que el juego puede dividirse en dos: Escenas e interacciones con personas, al estilo “<em>Point-and-click”</em>, o como en la saga <em>Archimedean Dynasty</em>, donde podrás hablar con otros personajes, encontrar misiones y comprar mejoras y naves.</p>
+<p><img decoding="async" loading="lazy" alt="Archimedean Dynasty" src="https://argochamber.com/assets/images/adynasty-example-0b2923c08fd3d1999928adc5527ed228.png" width="578" height="259" class="img_ev3q"></p>
+<p>No sufras por las referencias, luego te pongo algunas para que te hagas una idea.</p>
+<p>Esto te da la habilidad de moverte e interactuar, más allá de lo que pase con tu nave (¿He mencionado que esto va de naves?).</p>
+<p>Y después de eso, está “<em>La acción”</em>. Cuando decidas empezar una misión, tomarás el control de una nave espacial, visto desde arriba. Puedes esperarte algo parecido a <em>Tyrian2000</em> o <em>Raiden</em>, solo que con algunos toques más modernos, y mucho menos <em>arcade</em>. Te iré dando detalles conforme avance esto, pero a grandes rasgos, aparte de disparar a naves que se presente delante de ti, tendrás que tener en cuenta: Habilidades pasivas, habilidades activas, una definitiva, el tipo de armas y escudos que usas, y el que usan tus enemigos, y puede que algún efecto de estado, según avance la trama.</p>
+<p><img decoding="async" loading="lazy" alt="Tyrian2000" src="https://argochamber.com/assets/images/tyrian-example-686bbbb95a80924cb32dc95e150db7f4.png" width="747" height="290" class="img_ev3q"></p>
+<p>¡Ah! Y, mientras escribo esto, estoy haciendo el programa que va a generar esta página web…</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="referencias">Referencias<a href="https://argochamber.com/blog/2024/02/09/arrancando#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias">​</a></h3>
+<p>Tyrian 2000, GoG: <a href="https://www.gog.com/game/tyrian_2000" target="_blank" rel="noopener noreferrer">https://www.gog.com/game/tyrian_2000</a></p>
+<p>Archimedean Dynasty, GoG: <a href="https://www.gog.com/game/archimedean_dynasty" target="_blank" rel="noopener noreferrer">https://www.gog.com/game/archimedean_dynasty</a></p>
+<p>Archimedean Dynasty, Wikipedia: <a href="https://en.wikipedia.org/wiki/Archimedean_Dynasty" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Archimedean_Dynasty</a></p>]]></content>
+        <author>
+            <name>Pablo Blanco</name>
+            <email>pablo@argochamber.com</email>
+            <uri>https://github.com/sigmasoldi3r</uri>
+        </author>
+        <category label="space-shooter" term="space-shooter"/>
+        <category label="gamedev" term="gamedev"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Primeros días, Saturnus y una hoja en blanco]]></title>
+        <id>https://argochamber.com/blog/2023/11/22/primeros-dias</id>
+        <link href="https://argochamber.com/blog/2023/11/22/primeros-dias"/>
+        <updated>2023-11-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Primer post ¡Bieeeeeeeen!]]></summary>
+        <content type="html"><![CDATA[<p>🎉<!-- --> Primer post ¡Bieeeeeeeen! <!-- -->🎉</p>
+<p>Bueno, la verdad es que empezar de cero este tipo de cosas nunca se me han dado bien… ¡Pero por algún lado hay que empezar!</p>
+<p>Así que, mi estrategia va a ser la siguiente: Te voy a contar de que va este blog, para qué lo estamos escribiendo, y que vamos a ir publicando.</p>
+<p>Así que, lo primero es lo primero…</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="de-qué-va-esto">¿De qué va esto?<a href="https://argochamber.com/blog/2023/11/22/primeros-dias#de-qu%C3%A9-va-esto" class="hash-link" aria-label="Enlace directo al ¿De qué va esto?" title="Enlace directo al ¿De qué va esto?">​</a></h3>
+<p>Bueno, el concepto no es muy complicado: Es un blog <em>“Old school”</em>, que recupera la esencia de aquel internet de la primera o segunda década de los 2000, cuando aún había mucha gente que, o bien usaba un ADSL desfasado, o internet rural por Wifi (Como yo…).</p>
+<p>No es que pretendamos ponernos nostálgicos (Bueno, igual un poco). Más bien, nos hemos dado cuenta de que, con el declive progresivo de las comunidades de internet, hemos ido notando como la calidad del contenido online, y las interacciones que tenemos con él, ha ido cada vez a peor.</p>
+<p>Sentimos que todo esto es en parte por la masificación de diversas plataformas centralizadas (No voy a decir nombres, pero algunas tienen un robot sobre fondo naranja o una equis sobre fondo negro).</p>
+<p>Y no solo hemos sentido eso nosotros, hay más gente detrás que lo cree, os dejo un poco de referencias abajo.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="para-qué">¿Para qué?<a href="https://argochamber.com/blog/2023/11/22/primeros-dias#para-qu%C3%A9" class="hash-link" aria-label="Enlace directo al ¿Para qué?" title="Enlace directo al ¿Para qué?">​</a></h3>
+<p>Bueno, os he dado un poco el <em>“Por qué”</em> de este blog. Ahora os cuento a donde queremos llegar.</p>
+<p>Aparte de ser un poco, una especie de “protesta”, eso solo es el formato. Lo que vamos a ir publicando es nuestro progreso en un proyecto, y si va bien, los próximos.</p>
+<p>Y dirás, ¿qué proyecto? (Inserte rima aquí).</p>
+<p>Pues, tenemos entre manos hacer un videojuego, el cual aún no tiene título definitivo, que será un poco como un popurrí de diversos géneros. Tendrá elementos principalmente de acción, algo de RPG y de novela. Pero los detalles os los daré más adelante en otro post.</p>
+<p>La gracia de este juego, es un poco que aparte de ser, bueno, un videojuego, también utilizará un lenguaje de programación propio. Sí, no creo que hayáis oído hablar de él: se llama Saturnus y lo podéis encontrar en Github, os dejo el enlace más abajo.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="y-qué-puedo-esperar-de-este-blog">Y… ¿Qué puedo esperar de este blog?<a href="https://argochamber.com/blog/2023/11/22/primeros-dias#y-qu%C3%A9-puedo-esperar-de-este-blog" class="hash-link" aria-label="Enlace directo al Y… ¿Qué puedo esperar de este blog?" title="Enlace directo al Y… ¿Qué puedo esperar de este blog?">​</a></h3>
+<p>Bueno, básicamente posts que expliquen un poco el estado del juego, del desarrollo y cualquier avance o evento que hagamos.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="referencias">Referencias<a href="https://argochamber.com/blog/2023/11/22/primeros-dias#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias">​</a></h3>
+<p><em>Tomad estas referencias desde la distancia, no os las toméis como literales. Simplemente, hay ciertas partes que nos parecen coherentes con la realidad.</em></p>
+<p>La teoría del internet muerto, Wikipedia: <a href="https://en.wikipedia.org/wiki/Dead_Internet_theory" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Dead_Internet_theory</a></p>
+<p>La teoría del internet muerto, Forbes: <a href="https://www.forbes.com/sites/danidiplacido/2024/01/16/the-dead-internet-theory-explained/" target="_blank" rel="noopener noreferrer">https://www.forbes.com/sites/danidiplacido/2024/01/16/the-dead-internet-theory-explained/</a></p>
+<p>Internet es peor ahora que nunca, ¿ahora qué?, Kurtzgesagt: <a href="https://www.youtube.com/watch?v=fuFlMtZmvY0" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=fuFlMtZmvY0</a></p>
+<p>Saturnus: <a href="https://github.com/sigmasoldi3r/Saturnus" target="_blank" rel="noopener noreferrer">https://github.com/sigmasoldi3r/Saturnus</a></p>]]></content>
+        <author>
+            <name>Pablo Blanco</name>
+            <email>pablo@argochamber.com</email>
+            <uri>https://github.com/sigmasoldi3r</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="saturnus" term="saturnus"/>
+        <category label="space-shooter" term="space-shooter"/>
+        <category label="gamedev" term="gamedev"/>
+    </entry>
+</feed>

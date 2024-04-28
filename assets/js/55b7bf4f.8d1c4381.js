@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkargochamber_web=self.webpackChunkargochamber_web||[]).push([[8522],{6209:a=>{a.exports=JSON.parse('{"label":"saturnus","permalink":"/blog/tags/saturnus","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
