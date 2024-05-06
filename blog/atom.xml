@@ -2,11 +2,164 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://argochamber.com/blog</id>
     <title>Argochamber Interactive Blog</title>
-    <updated>2024-04-28T00:00:00.000Z</updated>
+    <updated>2024-05-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://argochamber.com/blog"/>
     <subtitle>Argochamber Interactive Blog</subtitle>
     <icon>https://argochamber.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Bases del juego y editores]]></title>
+        <id>https://argochamber.com/blog/2024/05/06/bases-y-editores</id>
+        <link href="https://argochamber.com/blog/2024/05/06/bases-y-editores"/>
+        <updated>2024-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ya he acabado de organizarlo todo, y tengo el camino claro (a nivel de]]></summary>
+        <content type="html"><![CDATA[<p>Ya he acabado de organizarlo todo, y tengo el camino claro (a nivel de
+código y estructura del proyecto, claro).</p>
+<p>¡Ahora solo queda empezar a hacer contenido!</p>
+<p><img decoding="async" loading="lazy" alt="cabecera" src="https://argochamber.com/assets/images/editors-header-df5b06fa59658e8622ae09093d140531.png" width="736" height="352" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="como-voy-a-editar-los-niveles">¿Como voy a editar los niveles?<a href="https://argochamber.com/blog/2024/05/06/bases-y-editores#como-voy-a-editar-los-niveles" class="hash-link" aria-label="Enlace directo al ¿Como voy a editar los niveles?" title="Enlace directo al ¿Como voy a editar los niveles?">​</a></h2>
+<p>Ahora que sé que voy a hacer un point-and-click, me queda pensar:
+¿Como hago que editar los niveles no sea puro sufrimiento?</p>
+<p>Digamos, que a la hora de producir niveles, normalmente tienes dos
+opciones:</p>
+<ul>
+<li>Tienes un editor de niveles como <a href="https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor" target="_blank" rel="noopener noreferrer">Valve Hammer</a></li>
+<li>O bien eres masoquista y todos tus niveles son archivos que editas a mano</li>
+</ul>
+<p>Lo segundo no es una opción para este tipo de juego, y lo primero...
+Bueno, no quiero perder tiempo en implementar mi propio formato de
+niveles, el software para editarlos, etc.</p>
+<p>Entonces se me ocurrió una idea intermedia: Usar el propio motor
+para editar los niveles. A fin de cuentas, es lo que se hace hoy en
+día con otros motores como <a href="https://www.unrealengine.com/en-US" target="_blank" rel="noopener noreferrer">Unreal Engine</a>, o <a href="https://unity.com/" target="_blank" rel="noopener noreferrer">Unity</a>.</p>
+<p>Y ahí que he ido. Me he creado unas herramientas internas (<code>@tool</code> en <a href="https://docs.godotengine.org/en/stable/tutorials/plugins/running_code_in_the_editor.html" target="_blank" rel="noopener noreferrer">jerga
+de programación de Godot</a>).</p>
+<p>He aquí el resultado:</p>
+<p><img decoding="async" loading="lazy" alt="Mapa" src="https://argochamber.com/assets/images/map_preview-5e793b866abda223d4b4de5302c6ab9e.png" width="1299" height="697" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="antecedentes">Antecedentes<a href="https://argochamber.com/blog/2024/05/06/bases-y-editores#antecedentes" class="hash-link" aria-label="Enlace directo al Antecedentes" title="Enlace directo al Antecedentes">​</a></h2>
+<p>En más de una ocasión, me he encontrado con problemas a la hora de hacer
+un prototipo de un juego o niveles. Organizar un capítulo entero es mucho
+trabajo, y normalmente tienes que asegurarte de que haya consistencia.</p>
+<p>¿Qué quiero decir? Pues que si en algún momento tengo que añadir algún elemento
+en un nivel o area que ya había sido creado con anterioridad, es fácil que lo
+haga mal, o que me equivoque de sitio.</p>
+<p><img decoding="async" loading="lazy" alt="Detalles" src="https://argochamber.com/assets/images/map_detail-733107c5ae8f1f42e5a9241325972445.png" width="496" height="382" class="img_ev3q"></p>
+<p>Por eso descarté la opción de hacer niveles separados en archivos, quiero
+que todo un capítulo entero esté disponible, a simple vista. Así, te orientas
+bien incluso si hace 4 meses que creaste ese nivel.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="que-incluyo-en-el-nivel">¿Que incluyo en el nivel?<a href="https://argochamber.com/blog/2024/05/06/bases-y-editores#que-incluyo-en-el-nivel" class="hash-link" aria-label="Enlace directo al ¿Que incluyo en el nivel?" title="Enlace directo al ¿Que incluyo en el nivel?">​</a></h2>
+<p>Por ahora, los niveles o capítulos tienen zonas con:</p>
+<ul>
+<li>Fondo del nivel (Imagen)</li>
+<li>Enlaces a otras zonas (Incluye distancia y dificultad del camino)</li>
+<li>Elementos visuales</li>
+<li>Elementos interactivos</li>
+</ul>
+<p>Y bueno, ¡eso es todo por ahora!</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="referencias">Referencias<a href="https://argochamber.com/blog/2024/05/06/bases-y-editores#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias">​</a></h3>
+<p>Valve Hammer, Valve developer community: <a href="https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor" target="_blank" rel="noopener noreferrer">https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor</a></p>
+<p>Unity, Sitio oficial: <a href="https://unity.com/" target="_blank" rel="noopener noreferrer">https://unity.com/</a></p>
+<p>Unreal Engine, Sitio oficial: <a href="https://www.unrealengine.com/en-US" target="_blank" rel="noopener noreferrer">https://www.unrealengine.com/en-US</a></p>
+<p>Running code in the editor, Godot official docs: <a href="https://docs.godotengine.org/en/stable/tutorials/plugins/running_code_in_the_editor.html" target="_blank" rel="noopener noreferrer">https://docs.godotengine.org/en/stable/tutorials/plugins/running_code_in_the_editor.html</a></p>]]></content>
+        <author>
+            <name>Pablo Blanco</name>
+            <email>pablo@argochamber.com</email>
+            <uri>https://github.com/sigmasoldi3r</uri>
+        </author>
+        <category label="godot" term="godot"/>
+        <category label="editor" term="editor"/>
+        <category label="gamedev" term="gamedev"/>
+        <category label="meta" term="meta"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[¡Ya tengo nuevo proyecto!]]></title>
+        <id>https://argochamber.com/blog/2024/05/03/ya-tengo-proyecto</id>
+        <link href="https://argochamber.com/blog/2024/05/03/ya-tengo-proyecto"/>
+        <updated>2024-05-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Después de una semana de brainstorming... ha llegado el momento.]]></summary>
+        <content type="html"><![CDATA[<p>Después de una semana de brainstorming... ha llegado el momento.</p>
+<p><img decoding="async" loading="lazy" alt="fps view" src="https://argochamber.com/assets/images/fps_sample-c9ae417bb8f7f33b27cf799fe2e1edad.png" width="639" height="359" class="img_ev3q"></p>
+<p>Pues mi idea es hacer algo asequible, y para ello, voy a usar un
+estilo muy retro, propio de los años 90.</p>
+<p>El juego en sí será mecánicamente sencillo: Un juego de aventura
+en primera persona, con temática de terror.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tecnología">Tecnología<a href="https://argochamber.com/blog/2024/05/03/ya-tengo-proyecto#tecnolog%C3%ADa" class="hash-link" aria-label="Enlace directo al Tecnología" title="Enlace directo al Tecnología">​</a></h2>
+<p>Voy a usar mi viejo amigo para este proyecto: <a href="https://godotengine.org/" target="_blank" rel="noopener noreferrer">Godot 4</a>.</p>
+<p><img decoding="async" loading="lazy" alt="godot view" src="https://argochamber.com/assets/images/godot-8f9ecd5a0b5b632b1906e61029f6e83d.png" width="600" height="600" class="img_ev3q"></p>
+<p>Es sencillo de usar, y el prototipado rapidísimo. Así que, si quiero
+acabar un proyecto, tengo que ser práctico. Esa, es la cruz que
+cargo desde que tengo 16 años, no acabar nada. Así que, ahora a mis
+28 años, por fin me he armado del valor suficiente como para crear,
+sin temor a que no esté <em>"Perfecto"</em>.</p>
+<p>Y por supuesto, para ello me he armado con herramientas que me lo
+pongan fácil.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="el-juego">El juego<a href="https://argochamber.com/blog/2024/05/03/ya-tengo-proyecto#el-juego" class="hash-link" aria-label="Enlace directo al El juego" title="Enlace directo al El juego">​</a></h2>
+<p>Pues como bien he dicho, el juego va a tener un <em>look</em> muy retro, voy
+a usar algoritmos de filtrado (Escalar, generar paletas de colores retro...)
+para convertir imágenes de la vida real en contenido del juego, y así
+solucionar dos problemas con un solo movimiento:</p>
+<ul>
+<li>Cohesión visual y estilo artístico</li>
+<li>Simplicidad a la hora de crear contenido</li>
+</ul>
+<p>De esta manera, puedo hacer que una foto tal que:</p>
+<p><img decoding="async" loading="lazy" alt="original" src="https://argochamber.com/assets/images/image-257cac1d43414c76693f6e85f66ed317.png" width="1024" height="473" class="img_ev3q"></p>
+<p>Se transformará en esto:</p>
+<p><img decoding="async" loading="lazy" alt="pixelizado" src="https://argochamber.com/assets/images/cabin_exit-f02d0b532c788bfbe31437befd91e8f9.png" width="512" height="236" class="img_ev3q"></p>
+<p>Si no has vivido ningún juego retro durante algún momento importante de tu vida,
+probablemente este estilo visual no te diga nada. Pero a mi personalmente,
+me evoca cierta nostalgia. Además, ¡Es temático! (Y rápido de producir).</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="la-trama">La trama<a href="https://argochamber.com/blog/2024/05/03/ya-tengo-proyecto#la-trama" class="hash-link" aria-label="Enlace directo al La trama" title="Enlace directo al La trama">​</a></h3>
+<p>Bueno en cuanto a la trama, aún tengo que pulir los detalles la verdad.</p>
+<p>Lo que sí sé, es que será un juego de supervivencia y terror, ambientado en
+<a href="https://argochamber.com/docs/worldbuilding/aw">el universo que estoy creando</a>, el cual en algún momento documentaré
+algo, intentando no hacer muchos spoilers.</p>
+<p>En este mundo, te metes en la piel de una persona que acaba de sobrevivir a
+un cataclismo misterioso (No spoilers!!), y que lo único que sabe es que vive
+<em>por los pelos</em>.</p>
+<p>Además, este cataclismo ha provocado serios daños a su memoria, dejándole en
+un estado de desorientación total.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="mecánicas">Mecánicas<a href="https://argochamber.com/blog/2024/05/03/ya-tengo-proyecto#mec%C3%A1nicas" class="hash-link" aria-label="Enlace directo al Mecánicas" title="Enlace directo al Mecánicas">​</a></h3>
+<p>Compo jugador, tendrás que cuidar ciertos aspectos de tu cuerpo para poder
+sobrevivir:</p>
+<ul>
+<li>Tu dosis de <em>ruido negro</em> (Revelaré más sobre eso en el futuro)</li>
+<li>La cordura (Sí, un poco estilo <em>[HP Lovecraft][lovecraft]</em>)</li>
+<li>Tu salud física</li>
+<li>La energía que tienes</li>
+</ul>
+<p>Para moverte por el mundo se usará el ratón, y bastará con pulsar sobre las
+<em>"zonas de viaje"</em>.</p>
+<p>A parte, deberás huir de criaturas malévolas, y enfrentarte a pequeños retos
+que irán haciendo que la trama se revele poco a poco.</p>
+<p>⚠️<!-- --> Piensa que mucha de la información que vaya revelando durante estas
+semanas puede cambiar drásticamente. Estoy en una fase de prototipado, en el
+momento que deje de ser un prototipo y una prueba de concepto, y pase a ser
+más una demo, probablemente podré afirmar con más seguridad todo esto.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="influencia">Influencia<a href="https://argochamber.com/blog/2024/05/03/ya-tengo-proyecto#influencia" class="hash-link" aria-label="Enlace directo al Influencia" title="Enlace directo al Influencia">​</a></h3>
+<p>Creo que muchos de estos elementos han sido inspirados y/o influidos por títulos
+como <a href="https://en.wikipedia.org/wiki/Amnesia:_The_Dark_Descent" target="_blank" rel="noopener noreferrer">Amnesia</a>, <a href="https://en.wikipedia.org/wiki/Biosys" target="_blank" rel="noopener noreferrer">Biosys</a>, y de más antiguos como <a href="https://en.wikipedia.org/wiki/Waxworks_(1992_video_game)" target="_blank" rel="noopener noreferrer">WaxWorks</a>,
+<a href="https://en.wikipedia.org/wiki/Uninvited_(video_game)#/" target="_blank" rel="noopener noreferrer">Uninvited</a>, y otros maś de aventura como <a href="https://en.wikipedia.org/wiki/Myst" target="_blank" rel="noopener noreferrer">Myst</a> o <a href="https://en.wikipedia.org/wiki/Riven" target="_blank" rel="noopener noreferrer">Riven</a>.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="referencias">Referencias<a href="https://argochamber.com/blog/2024/05/03/ya-tengo-proyecto#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias">​</a></h3>
+<p>Godot 4, Página oficial: <a href="https://godotengine.org/" target="_blank" rel="noopener noreferrer">https://godotengine.org/</a></p>
+<p>Biosys, Wikipedia: <a href="https://en.wikipedia.org/wiki/Biosys" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Biosys</a></p>
+<p>Amnesia, Wikipedia: <a href="https://en.wikipedia.org/wiki/Amnesia:_The_Dark_Descent" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Amnesia:_The_Dark_Descent</a></p>
+<p>Biosys, Wikipedia: <a href="https://en.wikipedia.org/wiki/Biosys" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Biosys</a></p>
+<p>Waxworks, Wikipedia: <a href="https://en.wikipedia.org/wiki/Waxworks_(1992_video_game)" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Waxworks_(1992_video_game)</a></p>
+<p>Uninvited, Wikipedia: <a href="https://en.wikipedia.org/wiki/Uninvited_(video_game)#/" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Uninvited_(video_game)#/</a></p>
+<p>Myst, Wikipedia: <a href="https://en.wikipedia.org/wiki/Myst" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Myst</a></p>
+<p>Riven, Wikipedia: <a href="https://en.wikipedia.org/wiki/Riven" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Riven</a></p>]]></content>
+        <author>
+            <name>Pablo Blanco</name>
+            <email>pablo@argochamber.com</email>
+            <uri>https://github.com/sigmasoldi3r</uri>
+        </author>
+        <category label="adventure" term="adventure"/>
+        <category label="gamedev" term="gamedev"/>
+        <category label="meta" term="meta"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cambio de rumbo]]></title>
         <id>https://argochamber.com/blog/2024/04/28/cambio-de-rumbo</id>
@@ -15,6 +168,7 @@
         <summary type="html"><![CDATA[Bueno, tras dos meses de una actividad muy reducida, me he decidido a darle un cambio de]]></summary>
         <content type="html"><![CDATA[<p>Bueno, tras dos meses de una actividad muy reducida, me he decidido a darle un cambio de
 rumbo a este proyecto.</p>
+<p><img decoding="async" loading="lazy" src="https://argochamber.com/assets/images/the_sun_sets-03dc458fbadc3badb6b75150788a153e.png" width="680" height="384" class="img_ev3q"></p>
 <p>¿Voy a abandonarlo? No, pero sí voy a aparcarlo.</p>
 <p>Cuando me embarqué en esta aventura, contaba con dos colaboradores que estaban dispuestos
 a echarme un cable con algunas <em>"tareillas"</em>, pero por desgracia su motivación descendió
@@ -53,6 +207,7 @@ espacial, algo así como una versión 2D de <a href="https://www.elitedangerous.
         <updated>2024-02-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Te voy a contar un poco que estilo visual tengo en mente para este juego…]]></summary>
         <content type="html"><![CDATA[<p>Te voy a contar un poco que estilo visual tengo en mente para este juego…</p>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://argochamber.com/assets/images/image-d6de8b5d2e33e6df7af648968fa60407.png" width="752" height="352" class="img_ev3q"></p>
 <p><img decoding="async" loading="lazy" alt="Raptor: Call of the shadows" src="https://argochamber.com/assets/images/raptor-b49835b5dc6f1f4a105aa8821f1fe643.png" width="1280" height="1024" class="img_ev3q"></p>
 <p>Básicamente, me voy a poner “retro”. Quiero que las escenas, animaciones y la acción en general, pero no es tarea fácil.</p>
 <p>Para empezar, ya de por sí, las animaciones para el juego tienen la complejidad de que, las tienes que animar fotograma a fotograma. Como te arrepientas de lo que se ve en un fotograma y quieras cambiar mucho la forma… ¡A cambiar todos los fotogramas!</p>
@@ -93,6 +248,7 @@ espacial, algo así como una versión 2D de <a href="https://www.elitedangerous.
         <summary type="html"><![CDATA[¡Venga que esto arranca!]]></summary>
         <content type="html"><![CDATA[<p>¡Venga que esto arranca!</p>
 <p>Este es el post en el que te cuento de que va el juego.</p>
+<p><img decoding="async" loading="lazy" src="https://argochamber.com/assets/images/starship_sunset-53d3822e74ebb1c77813e6a10425b679.png" width="738" height="345" class="img_ev3q"></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="vale-y-de-qué-va">Vale, y ¿De qué va?<a href="https://argochamber.com/blog/2024/02/09/arrancando#vale-y-de-qu%C3%A9-va" class="hash-link" aria-label="Enlace directo al Vale, y ¿De qué va?" title="Enlace directo al Vale, y ¿De qué va?">​</a></h2>
 <p>A grandes rasgos, la historia (Qué aún no está muy definida…), te sitúa en el lugar de un/a mercenario/a, que básicamente tiene que abrirse camino en un universo corrupto, y lleno de conflictos.</p>
 <p>Así que, matar a cambio de dinero, básicamente.</p>
@@ -131,6 +287,7 @@ espacial, algo así como una versión 2D de <a href="https://www.elitedangerous.
         <summary type="html"><![CDATA[Primer post ¡Bieeeeeeeen!]]></summary>
         <content type="html"><![CDATA[<p>🎉<!-- --> Primer post ¡Bieeeeeeeen! <!-- -->🎉</p>
 <p>Bueno, la verdad es que empezar de cero este tipo de cosas nunca se me han dado bien… ¡Pero por algún lado hay que empezar!</p>
+<p><img decoding="async" loading="lazy" src="https://argochamber.com/assets/images/bootstrap-6b8397a381d52c522e00f9ff5cc2758b.png" width="680" height="384" class="img_ev3q"></p>
 <p>Así que, mi estrategia va a ser la siguiente: Te voy a contar de que va este blog, para qué lo estamos escribiendo, y que vamos a ir publicando.</p>
 <p>Así que, lo primero es lo primero…</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="de-qué-va-esto">¿De qué va esto?<a href="https://argochamber.com/blog/2023/11/22/primeros-dias#de-qu%C3%A9-va-esto" class="hash-link" aria-label="Enlace directo al ¿De qué va esto?" title="Enlace directo al ¿De qué va esto?">​</a></h3>

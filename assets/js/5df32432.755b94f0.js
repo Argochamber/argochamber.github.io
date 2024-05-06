@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkargochamber_web=self.webpackChunkargochamber_web||[]).push([[4580],{4574:e=>{e.exports=JSON.parse('{"label":"adventure","permalink":"/blog/tags/adventure","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

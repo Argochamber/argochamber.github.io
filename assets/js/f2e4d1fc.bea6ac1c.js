@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkargochamber_web=self.webpackChunkargochamber_web||[]).push([[536],{7538:a=>{a.exports=JSON.parse('{"label":"godot","permalink":"/blog/tags/godot","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
