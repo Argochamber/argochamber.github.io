@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkargochamber_web=self.webpackChunkargochamber_web||[]).push([[6372],{9414:s=>{s.exports=JSON.parse('{"label":"assets","permalink":"/blog/tags/assets","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

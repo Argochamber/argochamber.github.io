@@ -2,11 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://argochamber.com/blog</id>
     <title>Argochamber Interactive Blog</title>
-    <updated>2024-05-06T00:00:00.000Z</updated>
+    <updated>2024-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://argochamber.com/blog"/>
     <subtitle>Argochamber Interactive Blog</subtitle>
     <icon>https://argochamber.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Interludio: Juegos de miedo]]></title>
+        <id>https://argochamber.com/blog/2024/05/30/interludio-juegos-de-miedo</id>
+        <link href="https://argochamber.com/blog/2024/05/30/interludio-juegos-de-miedo"/>
+        <updated>2024-05-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[¿Has jugado a Iron Lung o Voyager 19?]]></summary>
+        <content type="html"><![CDATA[<p>¿Has jugado a <em><a href="https://store.steampowered.com/app/1846170/Iron_Lung/" target="_blank" rel="noopener noreferrer">Iron Lung</a></em> o <em><a href="https://store.steampowered.com/app/2925510/Voyager19/" target="_blank" rel="noopener noreferrer">Voyager 19</a></em>?</p>
+<p>Bueno pues te traigo su versión para mineros: <em>Intraterrestial</em>.</p>
+<p><img decoding="async" loading="lazy" alt="header" src="https://argochamber.com/assets/images/header-24995b928443343ec37830f25f3e4531.png" width="780" height="439" class="img_ev3q"></p>
+<p>Estaba escribiendo hace una semana otro post para actualizar un poco el progreso,
+pero voy a pausar durante un mes el proyecto.</p>
+<p>¿Otro cambio? Bueno, ¡Está justificado! Lo juro...</p>
+<p>Tuve una revelación durante un viaje al país vasco, y apunté mentalmente todo lo
+que me vino a la cabeza, ¿El resultado? Un juego muy asequible y de corta duración
+de desarrollo.</p>
+<p>Os muestro el menú, que creo que se va a quedar durante mucho tiempo tal y como lo veréis:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fk0JzJBpn4A?si=DYNm73ntEvwZP2FK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="y-de-que-va">¿Y de que va?<a href="https://argochamber.com/blog/2024/05/30/interludio-juegos-de-miedo#y-de-que-va" class="hash-link" aria-label="Enlace directo al ¿Y de que va?" title="Enlace directo al ¿Y de que va?">​</a></h2>
+<p>¿Alguien se acuerda de la película de <a href="https://es.wikipedia.org/wiki/El_n%C3%BAcleo" target="_blank" rel="noopener noreferrer">"El núcleo" (The Core)</a>?</p>
+<p>Bueno, la premisa es sencilla: Vas en una nave <em>"intraterrestre"</em> (Que va bajo tierra),
+y tu deber es buscar anomalías subterráneas, recolectar datos y muestras del subsuelo.</p>
+<p>Pero, con dos apuntes:</p>
+<ul>
+<li>Debes cuidar de la nave (Se va a deteriorar)</li>
+<li>No tienes "ojos" para ver por donde vas, todo es a través de instrumentos</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="referencias">Referencias<a href="https://argochamber.com/blog/2024/05/30/interludio-juegos-de-miedo#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias">​</a></h3>
+<p>Iron Lung, Página de Steam: <a href="https://store.steampowered.com/app/1846170/Iron_Lung/" target="_blank" rel="noopener noreferrer">https://store.steampowered.com/app/1846170/Iron_Lung/</a>
+Voyager 19, Página de Steam: <a href="https://store.steampowered.com/app/2925510/Voyager19/" target="_blank" rel="noopener noreferrer">https://store.steampowered.com/app/2925510/Voyager19/</a>
+The Core, Wikipedia: <a href="https://es.wikipedia.org/wiki/El_n%C3%BAcleo" target="_blank" rel="noopener noreferrer">https://es.wikipedia.org/wiki/El_n%C3%BAcleo</a></p>]]></content>
+        <author>
+            <name>Pablo Blanco</name>
+            <email>pablo@argochamber.com</email>
+            <uri>https://github.com/sigmasoldi3r</uri>
+        </author>
+        <category label="content" term="content"/>
+        <category label="assets" term="assets"/>
+        <category label="gamedev" term="gamedev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bases del juego y editores]]></title>
         <id>https://argochamber.com/blog/2024/05/06/bases-y-editores</id>

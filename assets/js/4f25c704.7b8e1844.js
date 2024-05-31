@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkargochamber_web=self.webpackChunkargochamber_web||[]).push([[1356],{5936:e=>{e.exports=JSON.parse('{"label":"gamedev","permalink":"/blog/tags/gamedev","allTagsPath":"/blog/tags","count":6,"unlisted":false}')}}]);
