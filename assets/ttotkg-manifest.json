@@ -1,0 +1,22 @@
+{
+  "currentVersion": 401,
+  "deltas": [
+    {
+      "notes": "Test version - Release",
+      "version": 401,
+      "actions": [
+        {
+          "type": "download",
+          "fileName": "test.txt",
+          "url": "http://argochamber.com/test.txt",
+          "hash": "ce4820d1bf48e6b13481f32dca0398ac2e070cf7"
+        }
+      ]
+    },
+    {
+      "notes": "This version will never be used, also is a test blanket.",
+      "version": 100,
+      "actions": []
+    }
+  ]
+}
