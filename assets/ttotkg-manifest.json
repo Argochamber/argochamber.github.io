@@ -1,6 +1,28 @@
 {
-  "currentVersion": 401,
+  "currentVersion": 402,
   "deltas": [
+    {
+      "notes": "SecurityCraft + TTOTKG 1.1 update",
+      "version": 402,
+      "actions": [
+        {
+          "type": "download",
+          "fileName": "mods/SecurityCraft_mc1.21.1_v1.10.1.jar",
+          "url": "https://cdn.modrinth.com/data/v8jzRtAt/versions/5yIP4ezg/%5B1.21.1%5D%20SecurityCraft%20v1.10.1.jar?mr_download_reason=standalone",
+          "hash": "d021e344610bb00944dcf894459e1707390cdb1e"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/ttotkg-1.0-dev.1.jar",
+          "url": "http://argochamber.com/assets/ttotkg-1.0-dev.1.jar",
+          "hash": "60367d57fb9070f62c68d5ea181ed3fe2490d7e4"
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/ttotkg-1.0-SNAPSHOT.jar"
+        }
+      ]
+    },
     {
       "notes": "Test version - Release",
       "version": 401,
@@ -8,7 +30,7 @@
         {
           "type": "download",
           "fileName": "test.txt",
-          "url": "http://argochamber.com/test.txt",
+          "url": "http://argochamber.com/assets/test.txt",
           "hash": "ce4820d1bf48e6b13481f32dca0398ac2e070cf7"
         }
       ]
