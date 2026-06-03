@@ -3,7 +3,7 @@
   "deltas": [
     {
       "notes": "TTOTKG Patch dev2",
-      "versions": 403,
+      "version": 403,
       "actions": [
         {
           "type": "download",
