@@ -1,6 +1,22 @@
 {
-  "currentVersion": 402,
+  "currentVersion": 403,
   "deltas": [
+    {
+      "notes": "TTOTKG Patch dev2",
+      "versions": 403,
+      "actions": [
+        {
+          "type": "download",
+          "fileName": "mods/ttotkg-1.0-dev.1.jar",
+          "url": "http://argochamber.com/assets/artifacts/ttotkg-1.0-dev.2.jar",
+          "hash": "d91df2a514deb0323a85ae30af6e940aeb6ec8bd"
+        },
+        {
+          "type": "delete",
+          "filename": "mods/ttotkg-1.0-dev.1.jar"
+        }
+      ]
+    },
     {
       "notes": "SecurityCraft + TTOTKG 1.1 update",
       "version": 402,
@@ -14,24 +30,12 @@
         {
           "type": "download",
           "fileName": "mods/ttotkg-1.0-dev.1.jar",
-          "url": "http://argochamber.com/assets/ttotkg-1.0-dev.1.jar",
+          "url": "http://argochamber.com/assets/artifacts/ttotkg-1.0-dev.1.jar",
           "hash": "60367d57fb9070f62c68d5ea181ed3fe2490d7e4"
         },
         {
           "type": "delete",
           "fileName": "mods/ttotkg-1.0-SNAPSHOT.jar"
-        }
-      ]
-    },
-    {
-      "notes": "Test version - Release",
-      "version": 401,
-      "actions": [
-        {
-          "type": "download",
-          "fileName": "test.txt",
-          "url": "http://argochamber.com/assets/test.txt",
-          "hash": "ce4820d1bf48e6b13481f32dca0398ac2e070cf7"
         }
       ]
     },
