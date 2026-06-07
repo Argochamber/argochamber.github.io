@@ -1,9 +1,39 @@
 {
-  "currentVersion": 403,
+  "currentVersion": 404,
   "deltas": [
     {
-      "notes": "TTOTKG Patch dev2",
+      "version": 404,
+      "notes": "Create content update",
+      "actions": [
+        {
+          "type": "download",
+          "fileName": "mods/towed-1.2.0.jar",
+          "url": "https://cdn.modrinth.com/data/TAs7EWEs/versions/lyPZNTBl/towed-1.2.0.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/createcobblestone-1.4.10+neoforge-1.21.1-139.jar",
+          "url": "https://cdn.modrinth.com/data/ihpnEd80/versions/gdhN6Pg2/createcobblestone-1.4.10%2Bneoforge-1.21.1-139.jar?mr_download_reason=standalone&mr_game_version=1.21.1&mr_loader=neoforge",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/climbable_ropes-2.0.1.jar",
+          "url": "https://cdn.modrinth.com/data/jImqv1M5/versions/61axhhDG/climbable_ropes-2.0.1.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/createpropulsion-1.1.4.jar",
+          "url": "https://cdn.modrinth.com/data/ApkoHNO9/versions/hTnJ29I0/createpropulsion-1.1.4.jar?mr_download_reason=standalone",
+          "hash": null
+        }
+      ]
+    },
+    {
       "version": 403,
+      "notes": "TTOTKG Patch dev2",
       "actions": [
         {
           "type": "download",
@@ -18,8 +48,8 @@
       ]
     },
     {
-      "notes": "SecurityCraft + TTOTKG 1.1 update",
       "version": 402,
+      "notes": "SecurityCraft + TTOTKG 1.1 update",
       "actions": [
         {
           "type": "download",
@@ -40,8 +70,8 @@
       ]
     },
     {
-      "notes": "This version will never be used, also is a test blanket.",
       "version": 100,
+      "notes": "This version will never be used, also is a test blanket.",
       "actions": []
     }
   ]
