@@ -37,7 +37,7 @@
       "actions": [
         {
           "type": "download",
-          "fileName": "mods/ttotkg-1.0-dev.1.jar",
+          "fileName": "mods/ttotkg-1.0-dev.2.jar",
           "url": "http://argochamber.com/assets/artifacts/ttotkg-1.0-dev.2.jar",
           "hash": "d91df2a514deb0323a85ae30af6e940aeb6ec8bd"
         },
