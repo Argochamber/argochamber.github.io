@@ -1,6 +1,40 @@
 {
-  "currentVersion": 404,
+  "currentVersion": 405,
   "deltas": [
+    {
+      "version": 405,
+      "notes": "Protane aura patch",
+      "actions": [
+        {
+          "type": "download",
+          "fileName": "mods/cccredstonelink-0.0.2.jar",
+          "url": "https://cdn.modrinth.com/data/zDWcAhSD/versions/yxu0ZNj9/cccredstonelink-0.0.2.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/ttotkg-1.0-dev.3.jar",
+          "url": "http://argochamber.com/assets/artifacts/ttotkg-1.0-dev.3.jar",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/cide-1.1.0.jar",
+          "url": "https://cdn.modrinth.com/data/xwfHmqSv/versions/xdnAXaAa/cide-1.1.0.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/ccrj45-1.1.0.jar",
+          "url": "https://cdn.modrinth.com/data/GZ875jdx/versions/a449z0g0/ccrj45-1.1.0.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/ttotkg-1.0-dev.2.jar"
+        }
+      ]
+    },
     {
       "version": 404,
       "notes": "Create content update",
