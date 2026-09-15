@@ -1,6 +1,28 @@
 {
-  "currentVersion": 406,
+  "currentVersion": 407,
   "deltas": [
+    {
+      "version": 407,
+      "notes": "Tweaked elevations and added avionics",
+      "actions": [
+        {
+          "type": "download",
+          "fileName": "mods/ttotkg-1.0-dev.5.jar",
+          "url": "http://argochamber.com/assets/artifacts/ttotkg-1.0-dev.4.jar",
+          "hash": null
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/ttotkg-1.0-dev.4.jar"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/create_avionics-neoforge-1.21.1-0.5.2.jar",
+          "url": "https://cdn.modrinth.com/data/h4nsLvjf/versions/sWhAueMC/create_avionics-neoforge-1.21.1-0.5.2.jar?mr_download_reason=standalone",
+          "hash": null
+        }
+      ]
+    },
     {
       "version": 406,
       "notes": "Tweaked elevations",
