@@ -45,13 +45,13 @@
         },
         {
           "type": "download",
-          "fileName": "endertanks-neoforge-1.21.1-1.0.jar",
+          "fileName": "mods/endertanks-neoforge-1.21.1-1.0.jar",
           "url": "https://cdn.modrinth.com/data/zZwEA08D/versions/yMpTLwpa/endertanks-neoforge-1.21.1-1.0.jar?mr_download_reason=standalone",
           "hash": null
         },
         {
           "type": "download",
-          "fileName": "dimdoors-neoforge-1.21.1-6.2.2.jar",
+          "fileName": "mods/dimdoors-neoforge-1.21.1-6.2.2.jar",
           "url": "https://cdn.modrinth.com/data/b8Q0BxnV/versions/luZyhz73/dimdoors-neoforge-1.21.1-6.2.2.jar?mr_download_reason=standalone",
           "hash": null
         }
