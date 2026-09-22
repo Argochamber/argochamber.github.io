@@ -1,6 +1,62 @@
 {
-  "currentVersion": 407,
+  "currentVersion": 408,
   "deltas": [
+    {
+      "version": 408,
+      "notes": "Removed create ender and added sustitutes",
+      "actions": [
+        {
+          "type": "delete",
+          "fileName": "mods/createendertransmission-2.1.1-1.21.1.jar"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/create_radar-0.4.9.4-1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/BLu2Yqfq/versions/AntNFNAx/create_radar-0.4.9.4-1.21.1.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/create_radar-0.4.8-1.21.1.jar"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/create_aeronautics_transmission_linkage-0.2.8.jar",
+          "url": "https://cdn.modrinth.com/data/Y1dq5ioE/versions/FCZZ3ED4/create_aeronautics_transmission_linkage-0.2.8.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/linearbearing-1.3.5.jar",
+          "url": "https://cdn.modrinth.com/data/ZTwCjE7O/versions/8SJdnoXS/linearbearing-1.3.5.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/create_stressbound-1.2.11.jar",
+          "url": "https://cdn.modrinth.com/data/DtA4C6Hk/versions/OSTDA4hH/create_stressbound-1.2.11.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/enderchests-neoforge-1.21.1-1.0.jar",
+          "url": "https://cdn.modrinth.com/data/gxSiDoVF/versions/h1wflNQi/enderchests-neoforge-1.21.1-1.0.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "endertanks-neoforge-1.21.1-1.0.jar",
+          "url": "https://cdn.modrinth.com/data/zZwEA08D/versions/yMpTLwpa/endertanks-neoforge-1.21.1-1.0.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "dimdoors-neoforge-1.21.1-6.2.2.jar",
+          "url": "https://cdn.modrinth.com/data/b8Q0BxnV/versions/luZyhz73/dimdoors-neoforge-1.21.1-6.2.2.jar?mr_download_reason=standalone",
+          "hash": null
+        }
+      ]
+    },
     {
       "version": 407,
       "notes": "Tweaked elevations and added avionics",
