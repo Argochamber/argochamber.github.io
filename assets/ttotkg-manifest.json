@@ -54,6 +54,32 @@
           "fileName": "mods/dimdoors-neoforge-1.21.1-6.2.2.jar",
           "url": "https://cdn.modrinth.com/data/b8Q0BxnV/versions/luZyhz73/dimdoors-neoforge-1.21.1-6.2.2.jar?mr_download_reason=standalone",
           "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/shetiphiancore-neoforge-1.21.1-1.1.jar",
+          "url": "https://cdn.modrinth.com/data/oX7uP2kS/versions/qWurdalj/shetiphiancore-neoforge-1.21.1-1.1.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/sable-neoforge-1.21.1-1.2.2.jar"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/sable-neoforge-1.21.1-2.0.5.jar",
+          "url": "https://cdn.modrinth.com/data/T9PomCSv/versions/U678xqle/sable-neoforge-1.21.1-2.0.5.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "delete",
+          "fileName": "create-aeronautics-bundled-1.21.1-1.2.1.jar"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+          "url": "https://cdn.modrinth.com/data/oWaK0Q19/versions/44pLdPGg/create-aeronautics-bundled-1.21.1-1.3.2.jar?mr_download_reason=standalone",
+          "hash": null
         }
       ]
     },
