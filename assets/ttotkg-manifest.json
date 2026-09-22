@@ -1,6 +1,44 @@
 {
-  "currentVersion": 409,
+  "currentVersion": 410,
   "deltas": [
+    {
+      "version": 410,
+      "notes": "Fuesed transmission mods in one and tweaked mapping features",
+      "actions": [
+        {
+          "type": "delete",
+          "fileName": "mods/endertanks-neoforge-1.21.1-1.0.jar"
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/enderchests-neoforge-1.21.1-1.0.jar"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/createenderlink-1.4.1_mc1.21.1-neoforge.jar",
+          "url": "https://cdn.modrinth.com/data/DjbTLY77/versions/M0PjrPHF/createenderlink-1.4.1%2Bmc1.21.1-neoforge.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/xaerominimap-neoforge-1.21.1-25.3.13.jar"
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/xaeroworldmap-neoforge-1.21.1-1.40.16.jar"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/map_atlases-1.21-6.7.3-neoforge.jar",
+          "url": "https://cdn.modrinth.com/data/4hwXMFif/versions/LMLZBhEN/map_atlases-1.21-6.7.3-neoforge.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/xaerotrainmap-1.0.0.jar"
+        }
+      ]
+    },
     {
       "version": 409,
       "notes": "Updated power grid",
