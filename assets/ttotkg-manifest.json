@@ -1,6 +1,28 @@
 {
-  "currentVersion": 408,
+  "currentVersion": 409,
   "deltas": [
+    {
+      "version": 409,
+      "notes": "Updated power grid",
+      "actions": [
+        {
+          "type": "delete",
+          "fileName": "mods/powergrid-mc1.21.1-0.5.5.1.jar"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/powergrid-mc1.21.1-0.6.2.jar",
+          "url": "https://cdn.modrinth.com/data/eWiBLJ9R/versions/jCkPHjmP/powergrid-mc1.21.1-0.6.2.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/create_aeronautics_toolgun-0.3.6.jar",
+          "url": "https://cdn.modrinth.com/data/5fUBLqeW/versions/pcD0Yutw/create_aeronautics_toolgun-0.3.6.jar?mr_download_reason=standalone",
+          "hash": null
+        }
+      ]
+    },
     {
       "version": 408,
       "notes": "Removed create ender and added sustitutes",
