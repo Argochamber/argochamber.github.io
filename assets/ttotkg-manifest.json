@@ -1,6 +1,22 @@
 {
-  "currentVersion": 410,
+  "currentVersion": 411,
   "deltas": [
+    {
+      "version": 411,
+      "notes": "Small runtime patch on TTOTKG4",
+      "actions": [
+        {
+          "type": "delete",
+          "fileName": "mods/ttotkg-1.0-dev.5.jar"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/ttotkg-1.0-dev.6.jar",
+          "url": "http://argochamber.com/assets/artifacts/ttotkg-1.0-dev.6.jar",
+          "hash": null
+        }
+      ]
+    },
     {
       "version": 410,
       "notes": "Fuesed transmission mods in one and tweaked mapping features",
