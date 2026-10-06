@@ -9,6 +9,56 @@
           "type": "download",
           "fileName": "mods/ProjectRed-1.21.1-4.23.0-exploration.jar",
           "url": "https://cdn.modrinth.com/data/TVQMH6pX/versions/PqBN7SGy/ProjectRed-1.21.1-4.23.0-exploration.jar?mr_download_reason=standalone",
+          "hash": ""
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/ProjectRed-1.21.1-4.22.0-transmission.jar"
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/ProjectRed-1.21.1-4.22.0-integration.jar"
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/ProjectRed-1.21.1-4.22.0-illumination.jar"
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/ProjectRed-1.21.1-4.22.0-fabrication.jar"
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/ProjectRed-1.21.1-4.22.0-core.jar"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/ProjectRed-1.21.1-4.23.0-core.jar",
+          "url": "https://cdn.modrinth.com/data/zIlxygxr/versions/RueNBgM9/ProjectRed-1.21.1-4.23.0-core.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/ProjectRed-1.21.1-4.23.0-integration.jar",
+          "url": "https://cdn.modrinth.com/data/3JruZJb0/versions/iM7enYpN/ProjectRed-1.21.1-4.23.0-integration.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/ProjectRed-1.21.1-4.23.0-transmission.jar",
+          "url": "https://cdn.modrinth.com/data/dXmH4rEw/versions/YCCf1wi9/ProjectRed-1.21.1-4.23.0-transmission.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/ProjectRed-1.21.1-4.23.0-illumination.jar",
+          "url": "https://cdn.modrinth.com/data/9a4Zqq1k/versions/iq1eoOxy/ProjectRed-1.21.1-4.23.0-illumination.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/ProjectRed-1.21.1-4.23.0-fabrication.jar",
+          "url": "https://cdn.modrinth.com/data/5H1VMCiY/versions/XSc1rVMC/ProjectRed-1.21.1-4.23.0-fabrication.jar?mr_download_reason=standalone",
           "hash": null
         }
       ]
