@@ -1,6 +1,18 @@
 {
-  "currentVersion": 411,
+  "currentVersion": 412,
   "deltas": [
+    {
+      "version": 412,
+      "notes": "Added missing generation mod",
+      "actions": [
+        {
+          "type": "download",
+          "fileName": "mods/ProjectRed-1.21.1-4.23.0-exploration.jar",
+          "url": "https://cdn.modrinth.com/data/TVQMH6pX/versions/PqBN7SGy/ProjectRed-1.21.1-4.23.0-exploration.jar?mr_download_reason=standalone",
+          "hash": null
+        }
+      ]
+    },
     {
       "version": 411,
       "notes": "Small runtime patch on TTOTKG4",
