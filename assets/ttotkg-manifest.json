@@ -1,6 +1,22 @@
 {
-  "currentVersion": 412,
+  "currentVersion": 413,
   "deltas": [
+    {
+      "version": 413,
+      "notes": "Update TTOTKG mod - Teleporters!",
+      "actions": [
+        {
+          "type": "delete",
+          "fileName": "mods/ttotkg-1.0-dev.6.jar"
+        },
+        {
+          "type": "download",
+          "fileName": "mods/ttotkg-1.0-dev.7.jar",
+          "url": "http://argochamber.com/assets/artifacts/ttotkg-1.0-dev.7.jar",
+          "hash": null
+        }
+      ]
+    },
     {
       "version": 412,
       "notes": "Added missing generation mod",
