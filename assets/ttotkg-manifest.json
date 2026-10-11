@@ -1,6 +1,22 @@
 {
-  "currentVersion": 413,
+  "currentVersion": 414,
   "deltas": [
+    {
+      "version": 414,
+      "notes": "Small TTOTKG mod patch",
+      "actions": [
+        {
+          "type": "download",
+          "fileName": "mods/ttotkg-0.7.1.jar",
+          "url": "http://argochamber.com/assets/artifacts/ttotkg-0.7.1.jar",
+          "hash": null
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/ttotkg-1.0-dev.7.jar"
+        }
+      ]
+    },
     {
       "version": 413,
       "notes": "Update TTOTKG mod - Teleporters!",
