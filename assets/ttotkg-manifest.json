@@ -50,6 +50,12 @@
           "fileName": "mods/create_flight_control-neoforge-0.7.7.jar",
           "url": "https://cdn.modrinth.com/data/IGVrnkhH/versions/act82pgK/create_flight_control-neoforge-0.7.7.jar?mr_download_reason=standalone",
           "hash": null
+        },
+        {
+          "type": "download",
+          "fileName": "mods/cmparallelpipes-neoforge-2.0.2.jar",
+          "url": "https://cdn.modrinth.com/data/5jfUeix5/versions/aYrPugrv/cmparallelpipes-neoforge-2.0.2.jar?mr_download_reason=standalone",
+          "hash": null
         }
       ]
     },
