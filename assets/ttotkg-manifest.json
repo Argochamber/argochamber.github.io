@@ -50,12 +50,6 @@
           "fileName": "mods/create_flight_control-neoforge-0.7.7.jar",
           "url": "https://cdn.modrinth.com/data/IGVrnkhH/versions/act82pgK/create_flight_control-neoforge-0.7.7.jar?mr_download_reason=standalone",
           "hash": null
-        },
-        {
-          "type": "download",
-          "fileName": "mods/createmissiles-1.0.3%2Bneoforge-1.21.1.jar",
-          "url": "https://cdn.modrinth.com/data/8dmJJTC3/versions/E879erNz/createmissiles-1.0.3%2Bneoforge-1.21.1.jar?mr_download_reason=standalone",
-          "hash": null
         }
       ]
     },
