@@ -1,9 +1,25 @@
 {
-  "currentVersion": 415,
+  "currentVersion": 416,
   "deltas": [
     {
+      "version": 416,
+      "notes": "Patched: Create connected",
+      "actions": [
+        {
+          "type": "download",
+          "fileName": "mods/create_connected-1.3.3-mc1.21.1.jar",
+          "url": "https://cdn.modrinth.com/data/Vg5TIO6d/versions/Xe7EqzfQ/create_connected-1.3.3-mc1.21.1.jar?mr_download_reason=standalone",
+          "hash": null
+        },
+        {
+          "type": "delete",
+          "fileName": "mods/create_connected-1.1.16-mc1.21.1.jar"
+        }
+      ]
+    },
+    {
       "version": 415,
-      "notes": null,
+      "notes": "Added bits n bobs and other mods",
       "actions": [
         {
           "type": "download",
